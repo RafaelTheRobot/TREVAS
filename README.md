@@ -3,17 +3,7 @@ TREVAS
 
 Um programa de aprendizado virtual revisado com pares para introdução à plataforma AuRoRA e as guidelines NERO.
 
-**T**reinamento de 
-
-**R**eferência para
-
-**E**ducação e
-
-**V**alidação usando 
-
-**A**uRoRA
-
-**S**imulator
+**T**reinamento de **R**eferência para **E**ducação e **V**alidação usando **A**uRoRA **S**imulator
 
 ## Metodologia da versão alpha [v0]
 
