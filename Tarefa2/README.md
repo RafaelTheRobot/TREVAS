@@ -26,7 +26,7 @@ No NERo, são adotadas notações de acordo com a literatura vigente em livros e
 
 * Variáveis minúsculas do alfabeto grego representam ângulos ou vetores notáveis (eu sei, confuso, mas alguns trabalhos diferem entre si portanto achei melhor apresentar todas as possibilidades aqui). Por exemplo:
     - O 
-    - O vetor de posição em coordenadas cartesianas é dado por: <img src="https://latex.codecogs.com/svg.latex?\xi=(x,y,z)" width="65"> 
+    - O vetor de posição em coordenadas cartesianas é dado por: <img src="https://latex.codecogs.com/svg.latex?\xi=(x,y,z)" width="95"> 
 
 
 | X(1) | X(2) | X(3) | X(4) | X(5)  | X(6) | X(7) | X(8) | X(9) | X(10) | X(11)  | X(12) |
