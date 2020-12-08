@@ -2,15 +2,17 @@ TAREFA 2
 ========
 
 ## INTRO
-De onde vem o AuRoRA? Do que se alimenta? Como se reproduz? 
+De onde vem AuRoRA? Do que se alimenta? Como se reproduz? 
 
-O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop cada vez mais abstrata, devido ao número de colaboradores. Na presente apresentação serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu** próprio projeto de pesquisa :wink:. Em seguida, vamos analisar a diferença entre os termos *posição* 
+O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop [1] cada vez maior, devido ao número de colaboradores. Na presente apresentação serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu** próprio projeto de pesquisa :wink:. Em seguida, vamos analisar a diferença entre os termos *posição*,*pose*, *caminho*, *trajetória* e *rota* em exemplos e um rápido exercício. Por fim, deixei algumas dicas 
 
 [1] [Pizetta, I. H. B., Brandao, A. S., & Sarcinelli-Filho, M. (2016). A hardware-in-the-loop platform for rotary-wing unmanned aerial vehicles. Journal of Intelligent & Robotic Systems, 84(1-4), 725-743.](https://doi.org/10.1109/ICUAS.2014.6842369) 
 
 ## OBJETIVOS
+Entender a plataforma AuRoRA do ponto de vista abstrato, funcional e de projeto;  
 
-## MÉTODOS
+## CONTEXTO
+Durante anos, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et ...
 
 ## EXEMPLOS
 ### Variáveis padrão 
@@ -27,13 +29,17 @@ No NERo, são adotadas notações de acordo com a literatura vigente em livros e
     - O vetor de orientação em coordenadas [**esféricas**](https://en.wikipedia.org/wiki/Euler_angles) é dado por: <img src="https://latex.codecogs.com/svg.latex?\eta=[\phi,\theta,\psi]^T" width="95"> 
     - O vetor de posição em coordenadas **cartesianas** é dado por: <img src="https://latex.codecogs.com/svg.latex?\xi=[x,y,z]^T\in\mathbb{R}" width="95"> 
 
+* Derivadas temporais são representadas através de pontos sobre as variáveis, ao passo que derivadas com relação são representadas explicitamente (<img src="https://latex.codecogs.com/svg.latex?\frac{\del\dot{x}}{\del\psi}" width="75" >). Por exemplo:
+    - <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}" width="125" > é a segunda derivada temporal do erro na variável angular que representa rotações em torno do eixo x. 
+
+Na AuRoRA 
 
 | X(1) | X(2) | X(3) | X(4) | X(5)  | X(6) | X(7) | X(8) | X(9) | X(10) | X(11)  | X(12) |
 |------|------|------|------|-------|------|------|------|------|-------|--------|-------|
 |<img src="https://latex.codecogs.com/svg.latex?x " width="20" >|<img src="https://latex.codecogs.com/svg.latex?y " width="20">|<img src="https://latex.codecogs.com/svg.latex?z " width="20">|<img src="https://latex.codecogs.com/svg.latex?\phi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\theta " width="20">|<img src="https://latex.codecogs.com/svg.latex?\psi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{x} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{y} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{z}" width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\phi} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\theta} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\psi} " width="20">|
 
 
- <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}=" width="150" > 
+
 
 ## ATIVIDADES
 
