@@ -16,12 +16,29 @@ $teste \phi \dot{x} \tilde{\mathbf{\Xi}}$
 ## EXEMPLOS
 ### Variáveis padrão 
 
+No NERo, são adotadas notações de acordo com a literatura vigente em livros e artigos de revistas no campo de Robótica, adotando portanto as seguintes diretrizes:
+
+* Variáveis minúsculas do alfabeto latino representam variáveis unidimensionais, sejam elas discretas ou contínuas. Não é incomum que estas sejam consideradas implicitamente variáveis que variam em função do tempo. Além disso, o subíndice se refere a ... e o superíndice se refere a... Por exemplo:
+    - x,y,z são variáveis contínuas unidimensionais que 
+
+* Variáveis em **negrito**, quando minúsculas e do alfabeto latino representam vetores. Por exemplo:
+    - Seja <img src="https://latex.codecogs.com/svg.latex?\mathbf{P}=(x_c,y_c,z_c,a)" width="150"> o vetor que representa as coordenadas cartesianas do baricentro de um robô, em que "a" é a distância entre esse baricentro e o ponto de referência para controle.
+
+* Variáveis minúsculas do alfabeto grego representam ângulos 
+    - O 
+
+*
+    - O vetor de posição em coordenadas cartesianas é dado por: <img src="https://latex.codecogs.com/svg.latex?\Xi=(x,y,z)" width="150"> 
+*
+
+*
+
 | X(1) | X(2) | X(3) | X(4) | X(5)  | X(6) | X(7) | X(8) | X(9) | X(10) | X(11)  | X(12) |
 |------|------|------|------|-------|------|------|------|------|-------|--------|-------|
 |<img src="https://latex.codecogs.com/svg.latex?x " width="20" >|<img src="https://latex.codecogs.com/svg.latex?y " width="20">|<img src="https://latex.codecogs.com/svg.latex?z " width="20">|<img src="https://latex.codecogs.com/svg.latex?\phi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\theta " width="20">|<img src="https://latex.codecogs.com/svg.latex?\psi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{x} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{y} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{z}" width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\phi} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\theta} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\psi} " width="20">|
 
 
-(segunda derivada temporal) <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}=" width="150" > 
+ <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}=" width="150" > 
 
 ## ATIVIDADES
 
