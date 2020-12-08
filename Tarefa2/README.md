@@ -4,12 +4,12 @@ TAREFA 2
 ## INTRO
 De onde vem AuRoRA? Do que se alimenta? Como se reproduz? 
 
-O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop [1] cada vez maior, devido ao número de colaboradores. Na presente apresentação serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu** próprio projeto de pesquisa :wink:. Em seguida, vamos analisar a diferença entre os termos *posição*,*pose*, *caminho*, *trajetória* e *rota* em exemplos e um rápido exercício. Por fim, deixei algumas dicas 
+O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop [1] cada vez maior, devido ao número de colaboradores. Na presente apresentação serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu próprio** projeto de pesquisa :wink:. Em seguida, vamos analisar a diferença entre os termos *posição*,*pose*, *caminho*, *trajetória* e *rota* em exemplos e um rápido exercício. Por fim, deixei algumas dicas 
 
 [1] [Pizetta, I. H. B., Brandao, A. S., & Sarcinelli-Filho, M. (2016). A hardware-in-the-loop platform for rotary-wing unmanned aerial vehicles. Journal of Intelligent & Robotic Systems, 84(1-4), 725-743.](https://doi.org/10.1109/ICUAS.2014.6842369) 
 
 ## OBJETIVOS
-Entender a plataforma AuRoRA do ponto de vista abstrato, funcional e de projeto;  
+Entender a plataforma AuRoRA do ponto de vista abstrato, funcional e de projeto; Compreender e aplicar as tarefas de posicionamento, seguimento de caminho e trajetória;   
 
 ## CONTEXTO
 Durante anos, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et ...
@@ -32,14 +32,13 @@ No NERo, são adotadas notações de acordo com a literatura vigente em livros e
 * Derivadas temporais são representadas através de pontos sobre as variáveis, ao passo que derivadas com relação são representadas explicitamente (<img src="https://latex.codecogs.com/svg.latex?\frac{\partial\dot{x}}{\partial\psi}" width="75" >). Por exemplo:
     - <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}" width="125" > é a segunda derivada temporal do erro na variável angular que representa rotações em torno do eixo x. 
 
-Na AuRoRA 
+
+### Propriedades importantes
+Na plataforma AuRoRA, os módulos mais utilizados com certeza são os que representam robôs móveis terrestres (classe Pioneer 3DX) e aéreos (classe ArDrone) os quais são dados por objetos com métodos e propriedades immportantes definidas em suas respectivas pastas de código fonte. Por exemplo, o vetor de estado que representa um robô no sistema AuRoRA pode ser encontrado em ROBO.pPos.X, contendo os seguintes valores:
 
 | X(1) | X(2) | X(3) | X(4) | X(5)  | X(6) | X(7) | X(8) | X(9) | X(10) | X(11)  | X(12) |
 |------|------|------|------|-------|------|------|------|------|-------|--------|-------|
 |<img src="https://latex.codecogs.com/svg.latex?x " width="20" >|<img src="https://latex.codecogs.com/svg.latex?y " width="20">|<img src="https://latex.codecogs.com/svg.latex?z " width="20">|<img src="https://latex.codecogs.com/svg.latex?\phi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\theta " width="20">|<img src="https://latex.codecogs.com/svg.latex?\psi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{x} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{y} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{z}" width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\phi} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\theta} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\psi} " width="20">|
-
-
-
 
 ## ATIVIDADES
 
