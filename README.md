@@ -8,9 +8,11 @@ Um programa de aprendizado virtual revisado com pares para introdução à plata
 ## Como submeter meus trabalhos para esse repo?
 
 1) Clone esse repositório na sua máquina de trabalho com 
+
 	- ```git clone```
 
 ou, se já tiver esse repo localmente, verifique que possui a versão mais recente com
+
 	- ```git pull```
 
 
