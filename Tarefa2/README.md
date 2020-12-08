@@ -27,13 +27,17 @@ No NERo, são adotadas notações de acordo com a literatura vigente em livros e
     - x,y,z são variáveis contínuas unidimensionais que serão frequentemente usadas para descrever a posição de um 
 
 * Variáveis em **negrito**, quando minúsculas e do alfabeto latino representam vetores. Por exemplo:
-    - Seja <img src="https://latex.codecogs.com/svg.latex?\mathbf{P}=(x_c,y_c,z_c,a)" width="125"> o vetor que representa as coordenadas cartesianas do baricentro de um robô, em que "a" é a distância entre esse baricentro e o ponto de referência para controle.
+    - Seja <img src="https://latex.codecogs.com/svg.latex?\mathbf{p}=[x_c,y_c,z_c,a]^T" width="125"> o vetor que representa as coordenadas cartesianas do baricentro de um robô, em que "a" é a distância entre esse baricentro e o ponto de referência para controle.
+
+* Variáveis em **negrito**, quando MAIÚSCULAS e do alfabeto latino representam matrizes. Por exemplo:
+    - A matriz <img src="https://latex.codecogs.com/svg.latex?\mathbf{C}_r" width="125"> normalmente representa os efeitos [Coriolis](https://www.smartereveryday.com/toiletswirl) em um modelo dinâmico.
+    - Seja <img src="https://latex.codecogs.com/svg.latex?\mathbf{K}=[k_{p\upsilon},k_{p\omega};k_{d\upsilon},k_{d\omega}]" width="125"> uma matriz de ganhos proporcionais e derivativos em velocidade linear e angular.
 
 * Variáveis minúsculas do alfabeto grego representam ângulos ou vetores notáveis (eu sei, confuso, mas alguns trabalhos diferem entre si portanto achei melhor apresentar todas as possibilidades aqui). Por exemplo:
     - O vetor de orientação em coordenadas [**esféricas**](https://en.wikipedia.org/wiki/Euler_angles) é dado por: <img src="https://latex.codecogs.com/svg.latex?\eta=[\phi,\theta,\psi]^T" width="110"> 
     - O vetor de posição em coordenadas **cartesianas** é dado por: <img src="https://latex.codecogs.com/svg.latex?\xi=[x,y,z]^T\in\mathbb{R}" width="125"> 
 
-* Derivadas temporais são representadas através de pontos sobre as variáveis, ao passo que derivadas com relação são representadas explicitamente (<img src="https://latex.codecogs.com/svg.latex?\frac{\partial\dot{x}}{\partial\psi}" width="75" >). Por exemplo:
+* Derivadas temporais são representadas através de pontos sobre as variáveis, ao passo que derivadas com relação são representadas explicitamente (<img src="https://latex.codecogs.com/svg.latex?\frac{\partial\dot{x}}{\partial\psi}" width="25" >). Por exemplo:
     - <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}" width="125" > é a segunda derivada temporal do erro na variável angular que representa rotações em torno do eixo x. 
 
 
@@ -44,8 +48,30 @@ Na plataforma AuRoRA, os módulos mais utilizados com certeza são os que repres
 |------|------|------|------|-------|------|------|------|------|-------|--------|-------|
 |<img src="https://latex.codecogs.com/svg.latex?x " width="20" >|<img src="https://latex.codecogs.com/svg.latex?y " width="20">|<img src="https://latex.codecogs.com/svg.latex?z " width="20">|<img src="https://latex.codecogs.com/svg.latex?\phi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\theta " width="20">|<img src="https://latex.codecogs.com/svg.latex?\psi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{x} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{y} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{z}" width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\phi} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\theta} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\psi} " width="20">|
 
+(...) :construction:
+
+### Posicionamento e pose
+
+Posição é cartesiana, pose incorpora orientação.
+
+(...) :construction:
+
+### Caminho e trajetória
+
+Caminho são poses ordenadas e trajetória é um caminho cujas poses devem ser alcançadas em um momento bem determinado.
+
+(...) :construction:
+
+### Rota e 
+
 ## ATIVIDADES
 
-1) Como submeter trabalhos para esse repo? Verifique o README da [página principal do TREVAS](https://github.com/Alexandre-Caldeira/TREVAS)
+1) Como submeter trabalhos para esse repo? Verifique o README da [página principal do TREVAS](https://github.com/Alexandre-Caldeira/TREVAS). 
+
+2) Siga o roteiro em [Atividade2.pdf]() :construction: nesta pasta, com base na versão live do AuRoRA [disponível aqui](https://github.com/NERO-UFV/AuRoRA). Basta clonar para um local de fácil acesso, abrir no seu MATLAB e seguir o roteiro :smirk:. 
+
+3) Descansar um pouco, você mereceu! Se tiver dúvidas sobre algum dos passos, basta perguntar no grupo, pelos Issues do GitHub ou até mesmo no meu email. 
+
+Bons estudos e até a próxima!
 
 <!-- <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}=" width="150" >  (segunda derivada temporal) -->
