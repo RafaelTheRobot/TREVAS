@@ -4,12 +4,16 @@ TAREFA 2
 ## INTRO
 De onde vem AuRoRA? Do que se alimenta? Como se reproduz? 
 
-O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop [1] cada vez maior, devido ao número de colaboradores. Na presente apresentação serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu próprio** projeto de pesquisa :wink:. Em seguida, vamos analisar a diferença entre os termos *posição*,*pose*, *caminho*, *trajetória* e *rota* em exemplos e um rápido exercício. Por fim, deixei algumas dicas 
+O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop [1] cada vez maior, devido ao número de colaboradores. Na presente tarefa serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu próprio** projeto de pesquisa :wink:. Em seguida, vamos analisar a diferença entre os termos *posição*,*pose*, *caminho*, *trajetória* e *rota* em exemplos e um rápido exercício. Por fim, deixei algumas dicas 
 
 [1] [Pizetta, I. H. B., Brandao, A. S., & Sarcinelli-Filho, M. (2016). A hardware-in-the-loop platform for rotary-wing unmanned aerial vehicles. Journal of Intelligent & Robotic Systems, 84(1-4), 725-743.](https://doi.org/10.1109/ICUAS.2014.6842369) 
 
 ## OBJETIVOS
-Entender a plataforma AuRoRA do ponto de vista abstrato, funcional e de projeto; Compreender e aplicar as tarefas de posicionamento, seguimento de caminho e trajetória;   
+Entender a plataforma AuRoRA do ponto de vista abstrato, funcional e de projeto; 
+
+Compreender e aplicar as tarefas de posicionamento, seguimento de caminho e trajetória;
+
+Executar as tarefas estudadas e reportar o resultado através de gráficos;
 
 ## CONTEXTO
 Durante anos, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et ...
@@ -41,5 +45,7 @@ Na plataforma AuRoRA, os módulos mais utilizados com certeza são os que repres
 |<img src="https://latex.codecogs.com/svg.latex?x " width="20" >|<img src="https://latex.codecogs.com/svg.latex?y " width="20">|<img src="https://latex.codecogs.com/svg.latex?z " width="20">|<img src="https://latex.codecogs.com/svg.latex?\phi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\theta " width="20">|<img src="https://latex.codecogs.com/svg.latex?\psi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{x} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{y} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{z}" width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\phi} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\theta} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\psi} " width="20">|
 
 ## ATIVIDADES
+
+1) Como submeter trabalhos para esse repo? Verifique o README da [página principal do TREVAS](https://github.com/Alexandre-Caldeira/TREVAS)
 
 <!-- <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}=" width="150" >  (segunda derivada temporal) -->

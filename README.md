@@ -5,6 +5,20 @@ Um programa de aprendizado virtual revisado com pares para introdução à plata
 
 **T**reinamento de **R**eferência para **E**ducação e **V**alidação usando **A**uRoRA **S**imulator
 
+## Como submeter meus trabalhos para esse repo?
+
+1) Clone esse repositório na sua máquina de trabalho com 
+	- ```git clone```
+
+ou, se já tiver esse repo localmente, verifique que possui a versão mais recente com
+	- ```git pull```
+
+
+2) No diretorio raiz (./TREVAS/), crie uma pasta com seu nome. Dentro dela, serão inseridos seus trabalhos. Por exemplo:
+	- TREVAS/Lyapunov/Tarefa1 será a pasta do aluno Lyapunov onde ele colocou as respostas à Tarefa1
+
+3) Execute ```git push -u``` e aguarde para que um dos monitores verifique seu trabalho e revise as respostas. Não se preocupe, seus trabalhos não sofrerão merge com o sistema - não estando portanto online- se não desejar.
+
 ## Metodologia da versão alpha [v0]
 
 ___**Objetivos**___: aprender e ser capaz de executar idependentemente
