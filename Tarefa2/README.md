@@ -74,4 +74,4 @@ Caminho são poses ordenadas e trajetória é um caminho cujas poses devem ser a
 
 Bons estudos e até a próxima!
 
-<!-- <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}=" width="150" >  (segunda derivada temporal) -->
+https://gist.github.com/rxaviers/7360908
