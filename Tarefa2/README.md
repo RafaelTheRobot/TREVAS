@@ -30,15 +30,15 @@ No NERo, são adotadas notações de acordo com a literatura vigente em livros e
     - Seja <img src="https://latex.codecogs.com/svg.latex?\mathbf{p}=[x_c,y_c,z_c,a]^T" width="125"> o vetor que representa as coordenadas cartesianas do baricentro de um robô, em que "a" é a distância entre esse baricentro e o ponto de referência para controle.
 
 * Variáveis em **negrito**, quando MAIÚSCULAS e do alfabeto latino representam matrizes. Por exemplo:
-    - A matriz <img src="https://latex.codecogs.com/svg.latex?\mathbf{C}_r" width="125"> normalmente representa os efeitos [Coriolis](https://www.smartereveryday.com/toiletswirl) em um modelo dinâmico.
-    - Seja <img src="https://latex.codecogs.com/svg.latex?\mathbf{K}=[k_{p\upsilon},k_{p\omega};k_{d\upsilon},k_{d\omega}]" width="125"> uma matriz de ganhos proporcionais e derivativos em velocidade linear e angular.
+    - A matriz <img src="https://latex.codecogs.com/svg.latex?\mathbf{C}_r" width="25"> normalmente representa os efeitos [Coriolis](https://www.smartereveryday.com/toiletswirl) em um modelo dinâmico.
+    - Seja <img src="https://latex.codecogs.com/svg.latex?\mathbf{K}=[k_{p\upsilon},k_{p\omega};k_{d\upsilon},k_{d\omega}]" width="170"> uma matriz de ganhos proporcionais e derivativos em velocidade linear e angular.
 
 * Variáveis minúsculas do alfabeto grego representam ângulos ou vetores notáveis (eu sei, confuso, mas alguns trabalhos diferem entre si portanto achei melhor apresentar todas as possibilidades aqui). Por exemplo:
     - O vetor de orientação em coordenadas [**esféricas**](https://en.wikipedia.org/wiki/Euler_angles) é dado por: <img src="https://latex.codecogs.com/svg.latex?\eta=[\phi,\theta,\psi]^T" width="110"> 
     - O vetor de posição em coordenadas **cartesianas** é dado por: <img src="https://latex.codecogs.com/svg.latex?\xi=[x,y,z]^T\in\mathbb{R}" width="125"> 
 
-* Derivadas temporais são representadas através de pontos sobre as variáveis, ao passo que derivadas com relação são representadas explicitamente (<img src="https://latex.codecogs.com/svg.latex?\frac{\partial\dot{x}}{\partial\psi}" width="25" >). Por exemplo:
-    - <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}" width="125" > é a segunda derivada temporal do erro na variável angular que representa rotações em torno do eixo x. 
+* Derivadas temporais são representadas através de pontos sobre as variáveis, ao passo que derivadas com relação são representadas explicitamente (<img src="https://latex.codecogs.com/svg.latex?\partial\dot{x}/\partial\psi" width="65">). Por exemplo:
+    - <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}" width="95" > é a primeira derivada temporal do erro na variável angular que representa rotações em torno do eixo x. 
 
 
 ### Propriedades importantes
@@ -70,8 +70,9 @@ Caminho são poses ordenadas e trajetória é um caminho cujas poses devem ser a
 
 2) Siga o roteiro em [Atividade2.pdf]() :construction: nesta pasta, com base na versão live do AuRoRA [disponível aqui](https://github.com/NERO-UFV/AuRoRA). Basta clonar para um local de fácil acesso, abrir no seu MATLAB e seguir o roteiro :smirk:. 
 
-3) Descansar um pouco, você mereceu! Se tiver dúvidas sobre algum dos passos, basta perguntar no grupo, pelos Issues do GitHub ou até mesmo no meu email. 
+3) Descansar um pouco, você mereceu! Se tiver dúvidas sobre algum dos passos basta perguntar no grupo, pelos [Issues](https://guides.github.com/features/issues/) desse repositório ou até mesmo no meu email. 
 
 Bons estudos e até a próxima!
 
 <!-- <img src="https://latex.codecogs.com/svg.latex?\dot{\tilde{\phi}}=\dot{\phi}_d-\dot{\phi}=" width="150" >  (segunda derivada temporal) -->
+<!-- https://gist.github.com/rxaviers/7360908 -->
