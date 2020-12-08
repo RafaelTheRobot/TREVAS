@@ -4,11 +4,10 @@ TAREFA 2
 ## INTRO
 De onde vem o AuRoRA? Do que se alimenta? Como se reproduz? 
 
-
+O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop cada vez mais abstrata, devido ao número de colaboradores. Na presente apresentação serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu** próprio projeto de pesquisa :wink:. 
 
 [1] [Pizetta, I. H. B., Brandao, A. S., & Sarcinelli-Filho, M. (2016). A hardware-in-the-loop platform for rotary-wing unmanned aerial vehicles. Journal of Intelligent & Robotic Systems, 84(1-4), 725-743.](https://doi.org/10.1109/ICUAS.2014.6842369) 
 
-$teste \phi \dot{x} \tilde{\mathbf{\Xi}}$
 ## OBJETIVOS
 
 ## MÉTODOS
