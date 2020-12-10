@@ -73,7 +73,9 @@ Mas como podemos estudar de forma quantitativa a performance de um controlador? 
 
 Tendo isso em mente, sabemos também que em robótica boa parte dos controladores tem como princípio de funcionamento a minimização de erro de uma variável em relação ao seu valor desejado ou de referência. Assim, existem três métodos interessantes de análise de performance de um controlador baseadas na progressão do erro em ensaio, simulação ou experimento. Nominalmente, esses três métodos são a integral do erro absoluto (IAE), a integral do sinal de controle absoluto (IASC) e a integral do erro absoluto no tempo (ITAE) são algumas das formas mais comuns de se avaliar a performance do controlador.
 
-<img src="https://latex.codecogs.com/svg.latex?IAE=\int_{to}^{tf}{||\tilde{q}||}dt" width="120">    <img src="https://latex.codecogs.com/svg.latex?IASC=\int_{to}^{tf}{||u||}dt" width="120">    <img src="https://latex.codecogs.com/svg.latex?ITAE=\int_{to}^{tf}{||t\cdot\tilde{q}||}dt" width="120">
+- <img src="https://latex.codecogs.com/svg.latex?IAE=\int_{to}^{tf}{||\tilde{q}||}dt" width="120">    
+- <img src="https://latex.codecogs.com/svg.latex?IASC=\int_{to}^{tf}{||u||}dt" width="125">    
+- <img src="https://latex.codecogs.com/svg.latex?ITAE=\int_{to}^{tf}{||t\cdot\tilde{q}||}dt" width="130">
 
 <!-- <p align="center"> <img src="https://latex.codecogs.com/svg.latex?IAE=\int_{to}^{tf}{||\tilde{q}||}dt" width="120"> </p>;    <p align="center"> <img src="https://latex.codecogs.com/svg.latex?IASC=\int_{to}^{tf}{||u||}dt" width="120"> </p>;    <p align="center"> <img src="https://latex.codecogs.com/svg.latex?ITAE=\int_{to}^{tf}{||t\cdot\tilde{q}||}dt" width="120"> </p> -->
 
