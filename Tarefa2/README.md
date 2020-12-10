@@ -77,7 +77,8 @@ Tendo isso em mente, sabemos também que em robótica boa parte dos controladore
 - <img src="https://latex.codecogs.com/svg.latex?IASC=\int_{to}^{tf}{||u||}dt" width="125">    
 - <img src="https://latex.codecogs.com/svg.latex?ITAE=\int_{to}^{tf}{||t\cdot\tilde{q}||}dt" width="130">
 
-<!-- <p align="center"> <img src="https://latex.codecogs.com/svg.latex?IAE=\int_{to}^{tf}{||\tilde{q}||}dt" width="120"> </p>;    <p align="center"> <img src="https://latex.codecogs.com/svg.latex?IASC=\int_{to}^{tf}{||u||}dt" width="120"> </p>;    <p align="center"> <img src="https://latex.codecogs.com/svg.latex?ITAE=\int_{to}^{tf}{||t\cdot\tilde{q}||}dt" width="120"> </p> -->
+A seguir, na atividade desta tarefa, analisaremos as diferentes missões de controle e estudaremos a performance de dois controladores com base no que foi aprendido nessa sessão de leitura.
+
 
 ## ATIVIDADES
 
