@@ -23,7 +23,7 @@ Durante anos, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius
 
 No NERo, são adotadas notações de acordo com a literatura vigente em livros e artigos de revistas no campo de Robótica, adotando portanto as seguintes diretrizes:
 
-* Variáveis minúsculas do alfabeto latino representam variáveis unidimensionais, sejam elas discretas ou contínuas. Não é incomum que estas sejam consideradas implicitamente variáveis que variam em função do tempo. Além disso, o subíndice se refere a ... e o superíndice se refere a... Por exemplo:
+* Variáveis minúsculas do alfabeto latino representam variáveis unidimensionais, sejam elas discretas ou contínuas. Não é incomum que estas sejam consideradas implicitamente variáveis que variam em função do tempo. Além disso, o subíndice se refere a (...):construction: e o superíndice se refere a (...):construction: Por exemplo:
     - x,y,z são variáveis contínuas unidimensionais que serão frequentemente usadas para descrever a posição de um 
 
 * Variáveis em **negrito**, quando minúsculas e do alfabeto latino representam vetores. Por exemplo:
@@ -48,6 +48,7 @@ Na plataforma AuRoRA, os módulos mais utilizados com certeza são os que repres
 |------|------|------|------|-------|------|------|------|------|-------|--------|-------|
 |<img src="https://latex.codecogs.com/svg.latex?x " width="20" >|<img src="https://latex.codecogs.com/svg.latex?y " width="20">|<img src="https://latex.codecogs.com/svg.latex?z " width="20">|<img src="https://latex.codecogs.com/svg.latex?\phi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\theta " width="20">|<img src="https://latex.codecogs.com/svg.latex?\psi " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{x} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{y} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{z}" width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\phi} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\theta} " width="20">|<img src="https://latex.codecogs.com/svg.latex?\dot{\psi} " width="20">|
 
+
 (...) :construction:
 
 ### Posicionamento e pose
@@ -64,12 +65,17 @@ Caminho são poses ordenadas e trajetória é um caminho cujas poses devem ser a
 
 ### Análise de controle
 
-Na Tarefa1 foi possível perceber que diferentes controles implicam em ganhos diferentes e a lei de controle interfere na "flexibilidade" do seu sistema. Algumas funções matématicas conferirão um maior grau de precisão no ajuste dos ganhos em relação ao resultado observado durante experimentos e simulações. Portanto, a(s) função(ões) que descrevem sua lei de controle tem grande impacto no resultado final, erro cometido e 
+Na [Tarefa1](https://github.com/Alexandre-Caldeira/TREVAS/blob/main/Tarefa1/Controle%20de%20Robôs%20Móveis%20Utilizando%20o%20Modelo%20Cinemático.pdf) foi possível perceber que diferentes controles implicam em ganhos diferentes e a lei de controle interfere na "flexibilidade" do seu sistema. Algumas funções matématicas conferirão um maior grau de precisão no ajuste dos ganhos em relação ao resultado observado durante experimentos e simulações. Portanto, a(s) função(ões) que descrevem sua lei de controle tem grande impacto no resultado final, pro exemplo no erro cometido e na convergência do sistema ao equilíbrio. É bastante comum o uso da função tangente hiperbólica devido à sua suavidade e saturação nos limites do argumento tendendo a mais ou menos infinito (Figura abaixo). 
 
-<p align="center">
-  <img src="https://mathworld.wolfram.com/images/interactive/TanhReal.gif" />
-</p>
-<!-- ![](https://mathworld.wolfram.com/images/interactive/TanhReal.gif) -->
+<p align="center">  <img src="https://mathworld.wolfram.com/images/interactive/TanhReal.gif" />  </p>
+
+Mas como podemos estudar de forma quantitativa a performance de um controlador? Sabemos que todo modelo matemático que construírmos terá sido montado sobre suposições feitas sobre o ambiente, o modelo ou até mesmo sobre a forma de se aprender a controlar o robô (em caso de controladores heurísticos). Portanto, é importante levar em conta cada detalhe assumido como verdade na construção do modelo ao analisar a performance do controlador, pois são fontes potenciais de erros. Tendo isso em mente, sabemos também que em robótica boa parte dos controladores tem como princípio de funcionamento a minimização de erro de uma variável em relação ao seu valor desejado ou de referência. Assim, existem três métodos interessantes de análise de performance de um controlador baseadas na progressão do erro em ensaio, simulação ou experimento. Nominalmente, esses três métodos são a integral do erro absoluto (IAE), a integral do sinal de controle absoluto (IASC) e a integral do erro absoluto no tempo (ITAE) são algumas das formas mais comuns de se avaliar a performance do controlador.
+
+<p align="center"> <img src="https://latex.codecogs.com/svg.latex?IAE=\int_{to}^{tf}{||\tilde{q}||}dt" width="20"> </p>
+
+<p align="center"> <img src="https://latex.codecogs.com/svg.latex?IAE=\int_{to}^{tf}{||u||}dt" width="20"> </p>
+
+<p align="center"> <img src="https://latex.codecogs.com/svg.latex?IAE=\int_{to}^{tf}{||t\cdot\tilde{q}||}dt" width="20"> </p>
 
 ## ATIVIDADES
 
@@ -77,7 +83,7 @@ Na Tarefa1 foi possível perceber que diferentes controles implicam em ganhos di
 
 2) Siga o roteiro em [Atividade2.pdf]() :construction: nesta pasta, com base na versão live do AuRoRA [disponível aqui](https://github.com/NERO-UFV/AuRoRA). Basta clonar para um local de fácil acesso, abrir no seu MATLAB e seguir o roteiro :smirk:. 
 
-3) Descansar um pouco, você mereceu! Se tiver dúvidas sobre algum dos passos basta perguntar no grupo, pelos [Issues](https://guides.github.com/features/issues/) desse repositório ou até mesmo no meu email. 
+3) Descansar um pouco, você mereceu! Se tiver dúvidas sobre algum dos passos basta perguntar no grupo, pelas [Discussions](https://github.com/Alexandre-Caldeira/TREVAS/discussions) ou [Issues](https://guides.github.com/features/issues/) desse repositório ou até mesmo no meu email. 
 
 Bons estudos e até a próxima!
 
