@@ -4,7 +4,7 @@ TAREFA 2
 ## INTRO
 De onde vem AuRoRA? Do que se alimenta? Como se reproduz? 
 
-O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop [1] cada vez maior, devido ao número de colaboradores. Na presente tarefa serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu próprio** projeto de pesquisa :wink:. Em seguida, vamos analisar a diferença entre os termos *posição*,*pose*, *caminho*, *trajetória* e *rota* em exemplos e um rápido exercício. Por fim, deixei algumas dicas 
+O AuRoRA (explicação da sigla?) é uma plataforma de hardware-in-the-loop [1] cada vez maior, devido ao número de colaboradores. Na presente tarefa serão discutidas as principais convenções e direcionamentos essenciais para contribuir com novos módulos, sejam estes funções, objetos ou até mesmos classes inteiras que venham a surgir do **seu próprio** projeto de pesquisa :wink:. Em seguida, vamos analisar a diferença entre os termos *posição*,*pose*, *caminho* e *trajetória* em exemplos e um rápido exercício. Por fim, deixei algumas dicas 
 
 [1] [Pizetta, I. H. B., Brandao, A. S., & Sarcinelli-Filho, M. (2016). A hardware-in-the-loop platform for rotary-wing unmanned aerial vehicles. Journal of Intelligent & Robotic Systems, 84(1-4), 725-743.](https://doi.org/10.1109/ICUAS.2014.6842369) 
 
@@ -62,7 +62,11 @@ Caminho são poses ordenadas e trajetória é um caminho cujas poses devem ser a
 
 (...) :construction:
 
-### Rota e 
+### Análise de controle
+
+Na Tarefa1 foi possível perceber que diferentes controles implicam em ganhos diferentes e a lei de controle interfere na "flexibilidade" do seu sistema. Algumas funções matématicas conferirão um maior grau de precisão no ajuste dos ganhos em relação ao resultado observado durante experimentos e simulações. Portanto, a(s) função(ões) que descrevem sua lei de controle tem grande impacto no resultado final, erro cometido e
+
+![](https://mathworld.wolfram.com/images/interactive/TanhReal.gif)
 
 ## ATIVIDADES
 
