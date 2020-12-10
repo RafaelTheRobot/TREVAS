@@ -64,9 +64,12 @@ Caminho são poses ordenadas e trajetória é um caminho cujas poses devem ser a
 
 ### Análise de controle
 
-Na Tarefa1 foi possível perceber que diferentes controles implicam em ganhos diferentes e a lei de controle interfere na "flexibilidade" do seu sistema. Algumas funções matématicas conferirão um maior grau de precisão no ajuste dos ganhos em relação ao resultado observado durante experimentos e simulações. Portanto, a(s) função(ões) que descrevem sua lei de controle tem grande impacto no resultado final, erro cometido e
+Na Tarefa1 foi possível perceber que diferentes controles implicam em ganhos diferentes e a lei de controle interfere na "flexibilidade" do seu sistema. Algumas funções matématicas conferirão um maior grau de precisão no ajuste dos ganhos em relação ao resultado observado durante experimentos e simulações. Portanto, a(s) função(ões) que descrevem sua lei de controle tem grande impacto no resultado final, erro cometido e 
 
-![](https://mathworld.wolfram.com/images/interactive/TanhReal.gif)
+<p align="center">
+  <img src="https://mathworld.wolfram.com/images/interactive/TanhReal.gif" />
+</p>
+<!-- ![](https://mathworld.wolfram.com/images/interactive/TanhReal.gif) -->
 
 ## ATIVIDADES
 
