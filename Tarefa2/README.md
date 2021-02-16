@@ -74,8 +74,13 @@ Mas como podemos estudar de forma quantitativa a performance de um controlador? 
 Tendo isso em mente, sabemos também que em robótica boa parte dos controladores tem como princípio de funcionamento a minimização de erro de uma variável em relação ao seu valor desejado ou de referência. Assim, existem três métodos interessantes de análise de performance de um controlador baseadas na progressão do erro em ensaio, simulação ou experimento. Nominalmente, esses três métodos são a integral do erro absoluto (IAE), a integral do sinal de controle absoluto (IASC) e a integral do erro absoluto no tempo (ITAE) são algumas das formas mais comuns de se avaliar a performance do controlador.
 
 - <img src="https://latex.codecogs.com/svg.latex?IAE=\int_{to}^{tf}{||\tilde{q}||}dt" width="120">    
+<<<<<<< HEAD
+- <img src="https://latex.codecogs.com/svg.latex?IASC=\int_{to}^{tf}{||u||}dt" width="125">    
+- <img src="https://latex.codecogs.com/svg.latex?ITAE=\int_{to}^{tf}{||t\cdot\tilde{q}||}dt" width="130">
+=======
 - <img src="https://latex.codecogs.com/svg.latex?IASC=\int_{to}^{tf}{||u||}dt" width="125">   
 - <img src="https://latex.codecogs.com/svg.latex?ITAE=\int_{t_o}^{t_f}{||t\cdot\tilde{q}||}dt" width="130">
+>>>>>>> 620f2c25b6d9e8de7a80429bcecdf72acdf34c98
 
 A seguir, na atividade desta tarefa, analisaremos as diferentes missões de controle e estudaremos a performance de dois controladores com base no que foi aprendido nessa sessão de leitura.
 
