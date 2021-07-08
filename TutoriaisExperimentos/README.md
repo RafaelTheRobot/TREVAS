@@ -1,5 +1,4 @@
 # Tutoriais para Conduzir Experimentos
-
 ## Utilizando o Pioneer 3DX com ROSARIA 
 
 - Conectar micro-USB e USB na Raspberry no Pioneer 
